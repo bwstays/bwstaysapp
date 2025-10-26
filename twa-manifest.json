@@ -1,0 +1,65 @@
+{
+  "packageId": "com.bwstays.app",
+  "host": "www.bwstays.com",
+  "name": "BWStays",
+  "launcherName": "BWStays",
+  "display": "standalone",
+  "themeColor": "#1976D2",
+  "navigationColor": "#1976D2",
+  "navigationColorDark": "#1565C0",
+  "navigationDividerColor": "#1976D2",
+  "navigationDividerColorDark": "#1565C0",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://www.bwstays.com/icon.png",
+  "maskableIconUrl": "https://www.bwstays.com/maskable-icon.png",
+  "monochromeIconUrl": "https://www.bwstays.com/monochrome-icon.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "android.keystore",
+    "alias": "bwstays"
+  },
+  "appVersionName": "1.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Search Stays",
+      "short_name": "Search",
+      "url": "/search",
+      "icon": "https://www.bwstays.com/icons/search-icon.png"
+    },
+    {
+      "name": "My Bookings",
+      "short_name": "Bookings",
+      "url": "/bookings",
+      "icon": "https://www.bwstays.com/icons/bookings-icon.png"
+    },
+    {
+      "name": "Favorites",
+      "short_name": "Favorites",
+      "url": "/favorites",
+      "icon": "https://www.bwstays.com/icons/favorites-icon.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://www.bwstays.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
