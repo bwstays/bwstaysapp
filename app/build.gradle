@@ -6,6 +6,10 @@ android {
     namespace 'com.bwstays.app'
     compileSdk 34
 
+    manifestPlaceholders = [
+             assetStatements: '[{ "relation": ["delegate_permission/common.handle_all_urls"], ' +
+                    '"target": {"namespace": "web", "site": "https://bwstays.com"}}]'
+     ]
     defaultConfig {
         applicationId "com.bwstays.app"
         minSdk 23
