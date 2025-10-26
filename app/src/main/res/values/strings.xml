@@ -1,1 +1,16 @@
-sdsd
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BWStays</string>
+    <string name="default_url">https://www.bwstays.com</string>
+    <string name="file_provider_authority">com.bwstays.app.fileprovider</string>
+    
+    <string name="asset_statements">
+        [{
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"web\",
+                \"site\": \"https://www.bwstays.com\"
+            }
+        }]
+    </string>
+</resources>
